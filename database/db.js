@@ -3,7 +3,7 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'https://api.sekha.me';
+var url = 'https://api.yeyz.me';
 try {
 if(url == 'https://api.sekha.me') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
